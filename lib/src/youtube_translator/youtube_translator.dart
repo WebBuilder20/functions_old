@@ -17,8 +17,8 @@ class _YoutubeTransState extends State<YoutubeTrans> {
   final _formKey = GlobalKey<FormState>();
   final _sourceCodeController = TextEditingController();
   final _convertedController = TextEditingController();
-  final _widthValueController = TextEditingController(text: 1500.toString());
-  final _heightValueController = TextEditingController(text: 800.toString());
+  final _widthValueController = TextEditingController(text: 1200.toString());
+  final _heightValueController = TextEditingController(text: 640.toString());
 
   final _dropDownValue = ['가로 길이에 맞춤', '세로 길이에 맞춤', '사용자 맞춤 설정', '변경 없음'];
   var _selectedValue = '가로 길이에 맞춤';
