@@ -1,2 +1,2 @@
 # functions
-permalink: /web/ #index.html
+# permalink: /web/index.html
